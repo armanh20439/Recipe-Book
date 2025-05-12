@@ -12,10 +12,10 @@ export default function HeroSection() {
         backgroundPosition: "center",
       }}
     >
-      {/* semi-transparent overlay for contrast */}
+     
       <div className="hero-overlay bg-black bg-opacity-50 rounded-xl"></div>
 
-      {/* content container */}
+      
       <div className="hero-content w-full flex-col lg:flex-row-reverse items-start justify-end text-neutral-content px-6 lg:px-20">
         <div className="max-w-lg text-center lg:text-left">
           
