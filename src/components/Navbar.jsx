@@ -11,6 +11,7 @@ const Navbar = () => {
         <Link to="/recipes" className="btn btn-ghost">Recipes</Link>
         <Link to="/categories" className="btn btn-ghost">Categories</Link>
         <Link to="/about" className="btn btn-ghost">About</Link>
+        <Link to="/login" className="btn btn-ghost">Login</Link>
       </div>
     </div>
   );

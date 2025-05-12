@@ -7,6 +7,8 @@ import Categories from "./pages/Categories";
 import About from "./pages/About";
 import Home from "./pages/Home/Home";
 import Footer from "./components/Footer";
+import Login from "./pages/Login";
+import Register from "./pages/Register";
 
 function App() {
   return (
@@ -19,6 +21,8 @@ function App() {
           <Route path="/recipes/:id" element={<RecipeDetails />} />
           <Route path="/categories" element={<Categories />} />
           <Route path="/about" element={<About />} />
+          <Route path="/login" element={<Login/>}/>
+          <Route path="/register" element={<Register/>}/>
         </Routes>
       </div>
       <Footer/>
